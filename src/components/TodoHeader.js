@@ -33,7 +33,9 @@ const Header = styled.div`
 `;
 
 const Weather = styled.div`
-  float: right;
+  position: absolute;
+  top: 30px;
+  right: 40px;
   text-align: center;
   & div {
     display: flex;
@@ -42,6 +44,11 @@ const Weather = styled.div`
   }
   & h4 {
     margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    right: 73px;
+    top: 70px;
   }
 `;
 
