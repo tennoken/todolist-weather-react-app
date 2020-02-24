@@ -89,7 +89,7 @@ function TodoHeader() {
     const fetchWeather = async (lat, long) => {
       try {
         const response = await axios.get(
-          `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=e5332e24c31f61a15f503bcab6b71d18`
+          `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=e5332e24c31f61a15f503bcab6b71d18`
         );
         setWeather(response.data);
       } catch (e) {
