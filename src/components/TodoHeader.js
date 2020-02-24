@@ -2,7 +2,13 @@ import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { useTodoState } from "../TodoContext";
 import axios from "axios";
-import { WiDaySunny, WiRain, WiSnow, WiDayHaze } from "react-icons/wi";
+import {
+  WiDaySunny,
+  WiRain,
+  WiSnow,
+  WiDayHaze,
+  WiCloudy
+} from "react-icons/wi";
 
 const Header = styled.div`
   border-bottom: 1px solid #a5d8ff;
@@ -51,6 +57,9 @@ const weatherCases = {
   },
   Snow: {
     icon: <WiSnow />
+  },
+  Clouds: {
+    icon: <WiCloudy />
   }
 };
 
