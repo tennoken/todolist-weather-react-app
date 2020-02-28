@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/todolist-weather-react-app/static/js/main.b41cad57.chunk.js",
-    "main.js.map": "/todolist-weather-react-app/static/js/main.b41cad57.chunk.js.map",
+    "main.js": "/todolist-weather-react-app/static/js/main.cfaab4d1.chunk.js",
+    "main.js.map": "/todolist-weather-react-app/static/js/main.cfaab4d1.chunk.js.map",
     "runtime-main.js": "/todolist-weather-react-app/static/js/runtime-main.f203e8d6.js",
     "runtime-main.js.map": "/todolist-weather-react-app/static/js/runtime-main.f203e8d6.js.map",
-    "static/js/2.149b16a9.chunk.js": "/todolist-weather-react-app/static/js/2.149b16a9.chunk.js",
-    "static/js/2.149b16a9.chunk.js.map": "/todolist-weather-react-app/static/js/2.149b16a9.chunk.js.map",
+    "static/js/2.46109e0e.chunk.js": "/todolist-weather-react-app/static/js/2.46109e0e.chunk.js",
+    "static/js/2.46109e0e.chunk.js.map": "/todolist-weather-react-app/static/js/2.46109e0e.chunk.js.map",
     "index.html": "/todolist-weather-react-app/index.html",
-    "precache-manifest.0ccd1ce58ef550d340027d11d48c93b9.js": "/todolist-weather-react-app/precache-manifest.0ccd1ce58ef550d340027d11d48c93b9.js",
+    "precache-manifest.62a4ac5578d030c14250a5a3fa85a7a9.js": "/todolist-weather-react-app/precache-manifest.62a4ac5578d030c14250a5a3fa85a7a9.js",
     "service-worker.js": "/todolist-weather-react-app/service-worker.js",
-    "static/js/2.149b16a9.chunk.js.LICENSE.txt": "/todolist-weather-react-app/static/js/2.149b16a9.chunk.js.LICENSE.txt"
+    "static/js/2.46109e0e.chunk.js.LICENSE.txt": "/todolist-weather-react-app/static/js/2.46109e0e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f203e8d6.js",
-    "static/js/2.149b16a9.chunk.js",
-    "static/js/main.b41cad57.chunk.js"
+    "static/js/2.46109e0e.chunk.js",
+    "static/js/main.cfaab4d1.chunk.js"
   ]
 }
