@@ -7,7 +7,8 @@ import {
   WiRain,
   WiSnow,
   WiDayHaze,
-  WiCloudy
+  WiCloudy,
+  WiFog
 } from "react-icons/wi";
 
 const Header = styled.div`
@@ -67,6 +68,9 @@ const weatherCases = {
   },
   Clouds: {
     icon: <WiCloudy />
+  },
+  Fog: {
+    icon: <WiFog />
   }
 };
 
@@ -109,6 +113,7 @@ function TodoHeader() {
   if (!weather) return null;
 
   console.log(weather);
+  console.log(weatherCases[weather.weather[0].main].icon);
 
   return (
     <Header>
