@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35a0871f316810f5b109396ef2d62e4b",
+    "revision": "3a9427c5a0b82c4e50955541a102af29",
     "url": "/todolist-weather-react-app/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/todolist-weather-react-app/static/js/2.46109e0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f8a591c4ff47fc81cf4",
-    "url": "/todolist-weather-react-app/static/js/main.cfaab4d1.chunk.js"
+    "revision": "dc2ca9e08a4880f52f32",
+    "url": "/todolist-weather-react-app/static/js/main.b10c49b1.chunk.js"
   },
   {
     "revision": "b7a0c6e162c41e96b870",
