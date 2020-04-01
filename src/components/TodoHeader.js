@@ -7,6 +7,7 @@ const Header = styled.div`
   border-bottom: 1px solid #a5d8ff;
   height: 120px;
   padding: 40px 40px 10px 40px;
+  position: relative;
 
   & h1 {
     margin: 0;
