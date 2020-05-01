@@ -7,7 +7,7 @@ import {
   WiSnow,
   WiDayHaze,
   WiCloudy,
-  WiFog
+  WiFog,
 } from "react-icons/wi";
 
 const Weather = styled.div`
@@ -58,23 +58,26 @@ const Loading = styled.div`
 
 const weatherCases = {
   Clear: {
-    icon: <WiDaySunny />
+    icon: <WiDaySunny />,
   },
   Rain: {
-    icon: <WiRain />
+    icon: <WiRain />,
   },
   Haze: {
-    icon: <WiDayHaze />
+    icon: <WiDayHaze />,
   },
   Snow: {
-    icon: <WiSnow />
+    icon: <WiSnow />,
   },
   Clouds: {
-    icon: <WiCloudy />
+    icon: <WiCloudy />,
   },
   Fog: {
-    icon: <WiFog />
-  }
+    icon: <WiFog />,
+  },
+  Mist: {
+    icon: <WiFog />,
+  },
 };
 
 function WeatherTemplate() {
@@ -97,12 +100,10 @@ function WeatherTemplate() {
       }
     };
 
-    navigator.geolocation.getCurrentPosition(position => {
+    navigator.geolocation.getCurrentPosition((position) => {
       fetchWeather(position.coords.latitude, position.coords.longitude);
     });
   }, []);
-
-  console.log(weather);
 
   if (loading) return <Loading />;
   if (!weather) return null;
